@@ -72,7 +72,7 @@ class LibraryTest : public ::testing::Test {
   static void afree(void *ptr);
  private:
   static bool ShouldAllocFail(size_t size);
-  static unsigned long long fails_;
+  static uint64_t fails_;
   static std::map<size_t, int> size_fails_;
 };
 

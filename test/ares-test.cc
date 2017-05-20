@@ -33,7 +33,7 @@ namespace test {
 bool verbose = false;
 int mock_port = 5300;
 
-unsigned long long LibraryTest::fails_ = 0;
+uint64_t LibraryTest::fails_ = 0;
 std::map<size_t, int> LibraryTest::size_fails_;
 
 void ProcessWork(ares_channel channel,

@@ -1123,7 +1123,7 @@ TEST(AutoHandleTest, AutoHandleWorks) {
 typedef unsigned __int64 BiggestParsable;
 typedef signed __int64 BiggestSignedParsable;
 # else
-typedef unsigned long long BiggestParsable;
+typedef uint64_t BiggestParsable;
 typedef signed long long BiggestSignedParsable;
 # endif  // GTEST_OS_WINDOWS
 
